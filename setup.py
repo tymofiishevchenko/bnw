@@ -9,6 +9,8 @@ setup(
     author_email='tymofii.shevchenko.1905@gmail.com',
     url='https://github.com/tymofiishevchenko/bnw',
     download_url='https://github.com/tymofiishevchenko/bnw/archive/1.0.tar.gz',
+    long_description=open('README.md', 'r'),
+    long_description_content_type='text/markdown',
     keywords=['image-proccesing'],
     install_requires=['pillow'],
     classifiers=[
